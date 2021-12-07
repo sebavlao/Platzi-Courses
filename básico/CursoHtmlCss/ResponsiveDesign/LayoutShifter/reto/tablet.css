@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 700px) {
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-start;
+
+    }
+    .c1 {
+        height: 30vh;
+        width: 20vw;
+    }
+    .c4 {
+        width: 70vw;
+        height: 30vh;
+    }
+    .c2, .c3 {
+        width: 80vw;
+        height: 15vh;
+    }
+    .c5 {
+        height: 40vh;
+    }
+}

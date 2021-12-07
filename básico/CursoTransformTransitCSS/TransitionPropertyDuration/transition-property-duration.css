@@ -1,0 +1,30 @@
+.container {
+    width: 400px;
+    height: 100px;
+    background-color: papayawhip;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.container:hover .box {
+    transform: scale(1.2);
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
+
+.box1 {
+    background-color: lightcoral;
+    transition: transform 500ms;
+}
+.box2{
+    background-color: salmon;
+    transition: transform 1s;
+}
+.box3 {
+    background-color: darksalmon;
+    transition: transform 1.5s;
+}

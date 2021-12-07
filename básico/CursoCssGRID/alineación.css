@@ -1,0 +1,19 @@
+.contenedor {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 200px);
+
+    /* horizontalmente */
+    justify-items: center;
+
+    /* auto / center / start / end / stretch */
+
+    /* verticalmente */
+    align-items: center;
+}
+.contenedor .item {
+    background-color: #ff8000;
+    justify-self: stretch;
+    align-self: stretch;
+}

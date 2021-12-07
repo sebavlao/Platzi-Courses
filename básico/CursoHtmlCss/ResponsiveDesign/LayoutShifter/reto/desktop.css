@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .c1 {
+        height: 50vh;
+        width: 30vw;
+        order: 5;
+    }
+    .c2, .c3 {
+        width: 30vw;
+        height: 25vh;
+        align-self: center;
+    }
+    .c4 {
+        width: 30vw;
+        height: 50vh;
+        order: 2;
+    }
+    .c2 {
+        order: 3;
+    }
+    .c4 {
+        order: 4;
+    }
+    .c5 {
+        height: 50vh;
+        width: 40vw;
+        order: 1;
+    }
+}

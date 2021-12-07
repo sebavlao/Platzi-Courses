@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+.header {
+    height: 2rem;
+    background-color:white;
+}
+.nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    list-style: none;
+    flex-direction: row;
+    margin-right: 2rem;
+    position: relative;
+}
+.nav li {
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    margin-right: 1rem;
+}
+
+img {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 0.5rem;
+}
+
+.imgs img {
+    width: 17px;
+    height: 17px;
+    border-radius: 20px;
+    margin-left: 1rem;
+    position: relative;
+    top: 0.6rem;
+    border-style: solid black;
+    
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 182px;
+    height: 62px;
+    margin-top: 5rem;
+}
+
+.buscador {
+    width: 33rem;
+    height: 3rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    border-radius: 3rem;
+    border: 1px solid #dfe1e5;
+    position: relative;
+}
+.buscador .input {
+    width: 282px;
+    height: 44px;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+}
+.lupa img {
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    left: 0;
+    top: 30%;
+    margin-left: 1rem;
+}
+.micro img {
+    width: 10px;
+    height: 11px;
+    vertical-align: middle;
+    position: absolute;
+    right: 0;
+    margin-right: 1rem;
+    top: 30%;
+}
+
+.parrafo {
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    width: 30rem;
+    margin-top: 2rem;
+}
+p {
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    background-color:#f8f9fa;
+    border: solid #f8f9fa;
+    color: #3c4043;
+    padding: 1rem;
+    height: 1rem;
+    padding-bottom: 2rem;
+}
+
+.foot {
+    height: 5.5rem;
+    width: 100%;
+    display: flex;
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    border-bottom: 1px solid #dadce0;
+}
+.foot .publicidad {
+    height: 2.75rem;
+    width: 100%;
+    border-top: 1px solid #dadce0;
+    position: absolute;
+    bottom: 0;
+}
+.foot p {
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    align-self: flex-start;
+    padding: 0;
+    margin-top: 0.7rem;
+    margin-left: 1.5rem;
+    color: rgba(0,0,0,.54);
+}
+.publi {
+    height: 2.75rem;
+    width: 37%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+.publi li {
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    color: rgba(0,0,0,.54);
+}
+.publi_dos {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0.9rem;
+    right: 0;
+}
+.publi_dos li {
+    list-style: none;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    color: rgba(0,0,0,.54);
+    margin-right: 2rem;
+}

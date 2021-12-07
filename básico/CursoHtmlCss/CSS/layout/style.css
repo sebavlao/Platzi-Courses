@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: cyan;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+header {
+    height: 8vh;
+    background-color: cadetblue;
+}
+h1 {
+    font-size: 3rem;
+    position: absolute;
+    margin: 1rem;
+    background-color: transparent;
+}
+.nav {
+    position: absolute;
+    top: 1vh;
+    right: 0;
+    list-style: none;
+    background-color:transparent;
+}
+.nav li {
+    display: inline-block;
+    margin: 1rem;
+    font-size: 2rem;
+    background-color: transparent;
+}
+
+.aside {
+    width: 22vw;
+    height: 92vh;
+    background-color: crimson;
+}
+.aside .cuadrado {
+    width: 22rem;
+    height: 15rem;
+    background-color: black;
+    position: relative;
+    top: 5rem;
+    left: 5.5rem;
+    border-radius: 3rem;
+    margin-bottom: 4rem;
+    display: inline-block;
+}
+
+article {
+    background-color: transparent;
+    z-index: 1;
+}
+
+.article p {
+    position: absolute;
+    top: 6rem;
+    left: 34rem;
+    font-size: 4rem;
+}
+
+.foot {
+    height: 3rem;
+    width: 100%;
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+}
+.foot .rs {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    margin-left: 2rem;
+    color: white;
+    background-color: transparent;
+
+}
+.foot .ac {
+    position: absolute;
+    right: 0rem;
+    bottom: 0rem;
+    margin-bottom: 0.5rem;
+    margin-right: 1rem;
+    font-size: 2rem;
+    background-color: transparent;
+    color: white;
+}
